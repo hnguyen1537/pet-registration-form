@@ -1,10 +1,10 @@
 function validateForm() {
   const form = document.forms['pet-info-form'];
   // TODO: Add checks here.
-  var petAge = document.getElementById('pet-age').value;
-  var email = document.getElementById('owner-email-address').value;
-  var phoneNumber = document.getElementById('phone-number').value;
-  var explanation = document.getElementById('other-info-text-area').value;
+  let petAge = document.getElementById('pet-age').value;
+  let email = document.getElementById('owner-email-address').value;
+  let phoneNumber = document.getElementById('phone-number').value;
+  let explanation = document.getElementById('other-info-text-area').value;
 //check name input
   if (petName === '') {
       alert('Please enter the pet\'s name.');
